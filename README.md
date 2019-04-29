@@ -4,15 +4,6 @@
 
 目前用于百度内部 [AMIS](http://amis.baidu.com) 平台，已有 100+ 部门接入使用，创建 1.2w+ 页面，欢迎大家使用和提建议。
 
-## 文档
-
-* [快速开始](/docs/getting_started.md)
-* [高级用法](/docs/advanced.md)
-* [渲染器手册](/docs/renderers.md)
-* [如何使用](/docs/sdk.md)
-* [自定义组件](/docs/dev.md)
-* [辅助样式](/docs/style.md)
-
 ## 快速开始
 
 安装以下 `fis3` 相关插件。请使用 node v6.
@@ -46,6 +37,15 @@ npm test
 # 查看测试用率覆盖率
 npm run coverage
 ```
+
+## 使用文档
+
+* [快速开始](/docs/getting_started.md)
+* [高级用法](/docs/advanced.md)
+* [渲染器手册](/docs/renderers.md)
+* [如何使用](/docs/sdk.md)
+* [自定义组件](/docs/dev.md)
+* [辅助样式](/docs/style.md)
 
 ## 如何贡献
 
