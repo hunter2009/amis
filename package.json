@@ -9,7 +9,7 @@
     "start": "fis3 server start --www ./public --port 8888 --no-daemon --no-browse",
     "stop": "fis3 server stop",
     "dev": "fis3 release -cwd ./public",
-    "publish2fex": "sh publish.sh && npm publish"
+    "publish2npm": "sh publish.sh && npm publish"
   },
   "repository": {
     "type": "git",
