@@ -4,20 +4,12 @@ title: 开源渲染器
 
 AMis 的渲染器已经内部开源，可以直接通过 npm 安装使用。由于底层基于 React 所以该 NPM 包只支持 React 项目。
 
-仓库地址： http://icode.baidu.com/repos/baidu/amis/renderer
+仓库地址： https://github.com/baidu/amis
 
 ## 安装使用
 
 ```bash
-npm i @fex/amis-renderer --registry=http://registry.efe.tech
-```
-
-`@fex/amis-renderer` 发布在内网，所以一定要记得设置 `--registry`
-
-或者设置 @fex 打头的包名都从 registry `http://registry.efe.tech` 下载。
-
-```bash
-npm config set @fex:registry http://registry.efe.tech
+npm i amis
 ```
 
 安装完后可以在 React Component 这么使用。
@@ -26,7 +18,7 @@ npm config set @fex:registry http://registry.efe.tech
 import * as React from 'react';
 import {
     render as renderAmis
-} from '@fex/amis-renderer';
+} from 'amis';
 
 class MyComponent extends React.Component<any, any> {
     render() {
@@ -230,7 +222,7 @@ export class FormItemTextRenderer extends React.Component {
 import * as React from 'react';
 import {
     Renderer
-} from '@fex/amis-renderer';
+} from 'amis';
 
 @Renderer({
     test: /(^|\/)my\-renderer$/,
@@ -265,7 +257,7 @@ class CustomRenderer extends React.Component {
 import * as React from 'react';
 import {
     Renderer
-} from '@fex/amis-renderer';
+} from 'amis';
 
 @Renderer({
     test: /(^|\/)my\-renderer2$/,
@@ -328,7 +320,7 @@ class CustomRenderer extends React.Component {
 import * as React from 'react';
 import {
     FormItem
-} from '@fex/amis-renderer';
+} from 'amis';
 
 @FormItem({
     type: 'custom'

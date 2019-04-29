@@ -15,9 +15,6 @@ npm install -g fis3 fis3-parser-node-sass fis3-parser-typescript fis3-preprocess
 安装完后
 
 ```
-# 设置 @fex npm 包走 内部 registry
-npm config set @fex:registry http://registry.efe.tech
-
 # 安装项目 npm 依赖。
 npm i
 

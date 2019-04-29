@@ -26,7 +26,7 @@ AMis 中自定义组件主要分两类。表单类和非表单类。
 
 ```jsx
 import * as React from 'react';
-import {FormItem} from '@fex/amis-renderer';
+import {FormItem} from 'amis';
 import * as cx from 'classnames';
 
 @FormItem({
@@ -94,7 +94,7 @@ export default class CustomCheckbox extends React.PureComponent{
 import * as React from 'react';
 import {
     Renderer
-} from '@fex/amis-renderer';
+} from 'amis';
 
 @Renderer({
     test: /(^|\/)my\-renderer$/,
