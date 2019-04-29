@@ -1,6 +1,6 @@
 /**
  * @file entry of this example.
- * @author liaoxuezhi@baidu.com
+ * @author liaoxuezhi@cloud.com
  */
 import * as React from 'react';
 import { render } from 'react-dom';
