@@ -1,12 +1,9 @@
 ---
-title: 开源渲染器
+title: 如何使用
 ---
 
-AMis 的渲染器已经内部开源，可以直接通过 npm 安装使用。由于底层基于 React 所以该 NPM 包只支持 React 项目。
 
-仓库地址： https://github.com/baidu/amis
-
-## 安装使用
+## 如何使用
 
 ```bash
 npm i amis
